@@ -14,3 +14,6 @@ class Solution:
             else:
                 l = k + 1
         return res
+
+# Time Complexity: O(N * log(max(piles)))
+# Space Complexity: O(1)

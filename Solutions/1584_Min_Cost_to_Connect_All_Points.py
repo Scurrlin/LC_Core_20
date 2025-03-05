@@ -7,3 +7,6 @@ class Solution:
             for x1, y1 in d:
                 d[(x1, y1)] = min(d[(x1, y1)], abs(x-x1)+abs(y-y1))
         return res
+
+# Time Complexity: O(N^2)
+# Space Complexity: O(N)

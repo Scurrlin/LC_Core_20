@@ -9,3 +9,6 @@ class Solution:
                 if i - c >= 0:
                     minC[i] = min(minC[i], 1 + minC[i - c])
         return minC[-1] if minC[-1] != a + 1 else -1
+
+# Time Complexity: O(amount * len(coins))
+# Space Complexity: O(amount)

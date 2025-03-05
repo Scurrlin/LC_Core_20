@@ -14,3 +14,6 @@ class Solution:
         for i, h in stack:
             maxArea = max(maxArea, h * (len(heights) - i))
         return maxArea
+
+# Time Complexity: O(N)
+# Space Complexity: O(N)

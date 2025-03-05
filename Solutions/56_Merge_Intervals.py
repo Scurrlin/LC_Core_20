@@ -10,3 +10,6 @@ class Solution:
             else:
                 output.append([start, end])
         return output
+
+# Time Complexity: O(N log N)
+# Space Complexity: O(N)

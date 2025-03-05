@@ -14,3 +14,6 @@ class Solution:
             return root.val + max(leftMax, rightMax)
         dfs(root)
         return res[0]
+
+# Time Complexity: O(N)
+# Space Complexity: O(N)

@@ -21,3 +21,6 @@ class TrieNode:
             if c in cur.children:
                 cur = cur.children[c]
                 cur.refs -= 1
+
+# Time Complexity: O(L)
+# Space Complexity: O(1)

@@ -11,3 +11,6 @@ class Solution:
             dp = temp
         
         return dp[dst] if dp[dst] != float('inf') else -1
+
+# Time Complexity: O(K * len(flights))
+# Space Complexity: O(N)

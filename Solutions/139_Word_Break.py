@@ -11,3 +11,6 @@ class Solution:
                     dp[i] = True
                     break
         return dp[n]
+
+# Time Complexity: O(N * max_len)
+# Space Complexity: O(N)

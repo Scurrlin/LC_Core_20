@@ -17,3 +17,6 @@ class Solution:
                 rightMax = max(rightMax, h[r])
                 res += rightMax - h[r]
         return res
+
+# Time Complexity: O(N)
+# Space Complexity: O(1)

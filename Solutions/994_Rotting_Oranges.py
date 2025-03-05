@@ -32,3 +32,6 @@ class Solution:
                     rotten.append((xx, yy))
 
         return minutes_passed if fresh_count == 0 else -1
+
+# Time Complexity: O(rows * cols)
+# Space Complexity: O(rows * cols)
