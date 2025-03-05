@@ -8,8 +8,7 @@ class Solution:
             for f in flights:
                 if dp[f[0]] != float('inf'):
                     temp[f[1]] = min(temp[f[1]], dp[f[0]] + f[2])
-            dp = temp
-        
+            dp = temp        
         return dp[dst] if dp[dst] != float('inf') else -1
 
 # Time Complexity: O(K * len(flights))

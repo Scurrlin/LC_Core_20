@@ -11,7 +11,7 @@ class Solution:
         while d:
             
             # Select the point (x, y) with the smallest connection cost.
-            x, y = min(d, key=d.get)
+            x, y = min(d, key = d.get)
             
             # Add the selected point's connection cost to 'res' and remove it from d.
             res += d.pop((x, y))
